@@ -1,0 +1,10 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 73px;
+  padding-bottom: 132px;
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+}

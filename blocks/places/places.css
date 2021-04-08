@@ -1,0 +1,10 @@
+.places {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #f2f2f2;
+  width: 100%;
+  margin: 0 auto;
+}

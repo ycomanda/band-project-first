@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="root">
-      <header class="header">
+      <header class="header root__content-size">
         <nav class="header__menu">
           <ul class="header__links">
             <li class="header__link-item"><a href="#" class="header__link link">Мечты</a></li>
@@ -22,11 +22,13 @@
         </nav>
       </header>
       <main class="content">
-        <section class="title">
-          <p class="section-subtitle">куда я&nbsp;поеду</p>
-          <h1 class="section-title">
-            Куда я&nbsp;поеду сразу, как можно будет куда-то поехать
-          </h1>
+        <section class="title root__content-size">
+          <div class="title__text">
+            <h1 class="section-title">куда я&nbsp;поеду</h1>
+            <p class="section-subtitle">
+              Куда я&nbsp;поеду сразу, как можно будет куда-то поехать
+            </p>
+          </div>
           <img
             class="title__img"
             src="./images/intro-image.jpeg"
@@ -34,73 +36,79 @@
           />
         </section>
         <section class="places">
-          <article class="place">
-            <img class="place__img" src="./images/places-forest1.jpeg" alt="Фото Водопад." />
-            <div class="place__article">
-              <h2 class="place__title">Поеду в&nbsp;лес</h2>
-              <p class="place__paragrah">
-                Лес&nbsp;&mdash; экологическая система, биоценоз, в&nbsp;которой
-                главной жизненной формой являются деревья.
-              </p>
-              <p class="place__paragrah">
-                Лес&nbsp;&mdash; составная часть природы, понятие
-                &laquo;лес&raquo; можно рассматривать на&nbsp;разных уровнях.
-                В&nbsp;глобальном масштабе&nbsp;&mdash; это часть биосферы, в
-                локальном&nbsp;&mdash; это может быть насаждение. Леса занимают
-                около трети площади суши.
-              </p>
+          <article class="places__block">
+            <img class="places__img" src="./images/places-forest1.jpeg" alt="Фото Водопад." />
+            <div class="places__article">
+              <h2 class="places__title">Поеду в&nbsp;лес</h2>
+              <div class="places__text">
+                <p class="places__paragraph">
+                  Лес&nbsp;&mdash; экологическая система, биоценоз, в&nbsp;которой
+                  главной жизненной формой являются деревья.
+                </p>
+                <p class="places__paragraph">
+                  Лес&nbsp;&mdash; составная часть природы, понятие
+                  &laquo;лес&raquo; можно рассматривать на&nbsp;разных уровнях.
+                  В&nbsp;глобальном масштабе&nbsp;&mdash; это часть биосферы, в
+                  локальном&nbsp;&mdash; это может быть насаждение. Леса занимают
+                  около трети площади суши.
+                </p>
+              </div>
             </div>
           </article>
-          <article class="place">
-            <div class="place__article">
-              <h2 class="place__title">Поеду в&nbsp;горы</h2>
-              <p class="place__paragrah">
-                Горные системы занимают 64&nbsp;% поверхности Азии,
-                36&nbsp;%&nbsp;&mdash; Северной Америки, 25&nbsp;%&nbsp;&mdash;
-                Европы, 22&nbsp;%&nbsp;&mdash; Южной Америки,
-                17&nbsp;%&nbsp;&mdash; Австралии и 3&nbsp;%&nbsp;&mdash; Африки.
-                В&nbsp;целом 24&nbsp;% земной поверхности приходится на
-                горы.&nbsp;10&nbsp;% всех людей живёт на&nbsp;территории гор.
-                В&nbsp;горах берёт своё начало большинство рек Земли.
-              </p>
-            </div>
+          <article class="places__block">
             <img
-              class="place__img"
+              class="places__img places__img_reverse"
               src="./images/places-mountains1.jpeg"
               alt="Фото. Заснеженные вершины гор"
             />
+            <div class="places__article">
+              <h2 class="places__title">Поеду в&nbsp;горы</h2>
+              <div class="places__text">
+                <p class="places__paragraph">
+                  Горные системы занимают 64&nbsp;% поверхности Азии,
+                  36&nbsp;%&nbsp;&mdash; Северной Америки, 25&nbsp;%&nbsp;&mdash;
+                  Европы, 22&nbsp;%&nbsp;&mdash; Южной Америки,
+                  17&nbsp;%&nbsp;&mdash; Австралии и 3&nbsp;%&nbsp;&mdash; Африки.
+                  В&nbsp;целом 24&nbsp;% земной поверхности приходится на
+                  горы.&nbsp;10&nbsp;% всех людей живёт на&nbsp;территории гор.
+                  В&nbsp;горах берёт своё начало большинство рек Земли.
+                </p>
+              </div>
+            </div>
           </article>
-          <article class="grid-article">
+          <article class="places__block">
             <img
-              class="place__img"
+              class="places__img"
               src="./images/places-black-sea1.jpeg"
               alt="Фото Черное море"
             />
-            <div class="place__article">
-              <h2 class="place__title">Поеду на&nbsp;Чёрное море</h2>
-              <p class="place__paragrah">
-                Я&nbsp;уплыву туда, где ни&nbsp;разу я&nbsp;не&nbsp;был, туда,
-                где никто раньше не был. Никто и&nbsp;никогда раньше
-                не&nbsp;был, я&nbsp;уплыву. Я&nbsp;позову тебя смотреть
-                на&nbsp;синее небо и&nbsp;пить по&nbsp;капле синее небо,
-                и&nbsp;падать в это синее небо, я&nbsp;позову.
-              </p>
-              <p class="place__paragrah">
-                Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное
-                море, на Чёрное-Чёрное море уеду&nbsp;я. Уеду
-                я&nbsp;на&nbsp;Чёрное-Чёрное море, на Чёрное-Чёрное море,
-                на&nbsp;Чёрное-Чёрное море.
-              </p>
-              <p class="place__paragrah">Уеду я.</p>
+            <div class="places__article">
+              <h2 class="places__title">Поеду на&nbsp;Чёрное море</h2>
+              <div class="places__text">
+                <p class="places__paragraph">
+                  Я&nbsp;уплыву туда, где ни&nbsp;разу я&nbsp;не&nbsp;был, туда,
+                  где никто раньше не был. Никто и&nbsp;никогда раньше
+                  не&nbsp;был, я&nbsp;уплыву. Я&nbsp;позову тебя смотреть
+                  на&nbsp;синее небо и&nbsp;пить по&nbsp;капле синее небо,
+                  и&nbsp;падать в это синее небо, я&nbsp;позову.
+                </p>
+                <p class="places__paragraph">
+                  Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное
+                  море, на Чёрное-Чёрное море уеду&nbsp;я. Уеду
+                  я&nbsp;на&nbsp;Чёрное-Чёрное море, на Чёрное-Чёрное море,
+                  на&nbsp;Чёрное-Чёрное море.
+                </p>
+                <p class="places__paragraph">Уеду я.</p>
+              </div>
             </div>
           </article>
         </section>
 
         <section class="quotes">
-          <p class="section-subtitle">люди</p>
-          <h2 class="section-title">
+          <h2 class="section-title">люди</h2>
+          <p class="section-subtitle">
             Что говорят и&nbsp;говорили люди о&nbsp;путешествиях
-          </h2>
+          </p>
           <ul class="quote">
             <li class="quote__table">
               <p class="quote__author">Иван Бунин</p>

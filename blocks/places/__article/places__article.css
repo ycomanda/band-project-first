@@ -1,0 +1,6 @@
+.places__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 63px 70px 90px;
+}
