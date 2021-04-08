@@ -18,3 +18,11 @@
 
 @import url('../blocks/title/title.css');
 @import url('../blocks/title/__img/title__img.css');
+
+@import url('../blocks/places/places.css');
+@import url('../blocks/places/__block/places__block.css');
+@import url('../blocks/places/__img/places__img.css');
+@import url('../blocks/places/__article/places__article.css');
+@import url('../blocks/places/__title/places__title.css');
+@import url('../blocks/places/__text/places__text.css');
+@import url('../blocks/places/__paragraph/places__paragraph.css');
