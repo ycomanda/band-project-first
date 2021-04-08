@@ -1,4 +1,11 @@
-.root__content-size {
+/*.root__content-size {
   max-width: 100%;
   padding: 0 68px 0;
+}
+*/
+
+.root__content-size {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
 }
