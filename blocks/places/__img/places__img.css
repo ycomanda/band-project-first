@@ -4,13 +4,3 @@
   object-fit: cover;
   object-position: center;
 }
-
-.places__img_reverse {
-  order: 2;
-}
-
-@media (max-width: 765px) {
-  .places__img_reverse {
-  order: 0;
-  }
-}
