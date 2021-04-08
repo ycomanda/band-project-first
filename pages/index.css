@@ -38,3 +38,6 @@
 @import url("../blocks/quote/__table/quote__table.css");
 @import url("../blocks/quote/__text/quote__text.css");
 @import url("../blocks/quote/__section/quote__section.css");
+
+/* Блок /footer/ */
+@import url("../blocks/footer/footer.css");
