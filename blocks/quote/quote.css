@@ -1,7 +1,8 @@
-.places__article {
+.quote {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 63px 70px 82px;
-  margin: 0;
+
+  padding-top: 110px;
+  padding-bottom: 132px;
 }

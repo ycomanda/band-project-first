@@ -1,0 +1,8 @@
+.quote__section {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  list-style-type: none;
+  padding: 0;
+  grid-column-gap: 75px;
+  margin: 0;
+}

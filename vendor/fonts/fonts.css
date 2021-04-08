@@ -1,15 +1,20 @@
 @font-face {
-    font-family: 'Manrope';
-    src: url('./manrope/Manropebold.woff2') format('woff2'), url('./manrope/Manropebold.woff') format('woff');
+    font-family: "Manrope";
+    src: url("./manrope/Manropebold.woff2") format("woff2"), url("./manrope/Manropebold.woff") format("woff");
     font-weight: 700;
-    font-dispay: swap;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Manrope';
-    src: url('./manrope/Manroperegular.woff2') format('woff2'), url('./manrope/Manroperegular.woff') format('woff');
-    font-dispay: swap;
+    font-family: "Manrope";
+    src: url("./manrope/Manroperegular.woff2") format("woff2"), url("./manrope/Manroperegular.woff") format("woff");
     font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Monospac821 WGL4 BT Roman";
+    src: url("./manrope/Monospac821 WGL4 BT Roman.ttf") format("truetype");
+    font-weight: 400, 700, 900;
     font-style: normal;
 }

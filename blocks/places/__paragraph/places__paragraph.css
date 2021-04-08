@@ -5,6 +5,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 163%;
+  max-width: 85%;
 }
 
 .places__paragraph:first-of-type {

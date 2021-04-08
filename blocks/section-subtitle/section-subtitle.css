@@ -2,4 +2,7 @@
   display: block;
   font-size: 32px;
   max-width: 520px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 900;
+  line-height: 1.3;
 }
