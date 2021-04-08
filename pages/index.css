@@ -4,8 +4,17 @@
 
 @import url('../blocks/link/link.css');
 
+@import url('../blocks/root/root.css');
+@import url('../blocks/root/__content-size/root__content-size.css');
+
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__menu/header__menu.css');
 @import url('../blocks/header/__links/header__links.css');
 @import url('../blocks/header/__link/header__link.css');
 @import url('../blocks/header/__link-item/header__link-item.css');
+
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/section-subtitle/section-subtitle.css');
+
+@import url('../blocks/title/title.css');
+@import url('../blocks/title/__img/title__img.css');

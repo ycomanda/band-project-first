@@ -1,0 +1,9 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 73px 0 0;
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+}
