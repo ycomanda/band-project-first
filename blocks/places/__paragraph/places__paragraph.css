@@ -1,4 +1,12 @@
 .places__paragraph {
-  align-self: flex-end;
-  max-width: 360px;
+  margin: 0;
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 163%;
+}
+
+.places__paragraph:first-of-type {
+  padding-top: 0;
 }

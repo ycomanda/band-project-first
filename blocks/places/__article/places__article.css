@@ -1,4 +1,6 @@
 .places__article {
-  padding: 39px 70px 75px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 63px 70px 90px;
 }
