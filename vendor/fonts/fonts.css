@@ -14,7 +14,5 @@
 
 @font-face {
     font-family: "Monospac821 WGL4 BT Roman";
-    src: url("./manrope/Monospac821 WGL4 BT Roman.ttf") format("truetype");
-    font-weight: 400, 700, 900;
-    font-style: normal;
+    src: url("./Monospac821/ WGL4 BT Roman.ttf") format("truetype");
 }

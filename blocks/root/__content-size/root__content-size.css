@@ -5,9 +5,9 @@
 */
 
 .root__content-size {
-  max-width: 1140px;
+  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 25px 0;
+  padding: 0 68px 0;
   box-sizing: border-box;
 }
