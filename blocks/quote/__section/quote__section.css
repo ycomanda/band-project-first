@@ -6,3 +6,10 @@
   grid-column-gap: 75px;
   margin: 0;
 }
+
+@media (max-width: 765px) {
+  .quote__section {
+    grid-template-columns: auto;
+    max-width: 350px;
+  }
+}

@@ -5,3 +5,9 @@
 .header__link-item:last-of-type {
   margin-right: 0;
 }
+
+@media (max-width: 450px) {
+  .header__link-item {
+    margin-right: 10px;
+  }
+}
