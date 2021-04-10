@@ -5,7 +5,7 @@
   object-position: center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1124px) {
   .places__img {
     height: 100%;
   }
