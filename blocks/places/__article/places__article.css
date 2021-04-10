@@ -6,8 +6,9 @@
   margin: 0;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 1124px) {
   .places__article {
     padding: 50px 35px;
+    justify-content: center;
   }
 }
