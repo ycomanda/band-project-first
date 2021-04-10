@@ -1,0 +1,22 @@
+.header__menu-toggle {
+  opacity: 0;
+}
+
+.header__menu-toggle:checked ~ .header__menu-btn > .header__btn-logo {
+  transform: rotate(45deg);
+}
+
+.header__menu-toggle:checked ~ .header__menu-btn > .header__btn-logo::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+.header__menu-toggle:checked ~ .header__menu-btn > .header__btn-logo::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.header__menu-toggle:checked ~ .header__links-sandwich {
+  visibility: visible;
+  position: relative;
+}
