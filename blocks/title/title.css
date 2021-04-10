@@ -7,9 +7,14 @@
   padding-bottom: 130px;
 }
 
+@media (max-width: 1040px) {
+  .title {
+    padding: 0px 25px 60px;
+  }
+}
+
 @media (max-width: 765px) {
   .title {
     flex-direction: column-reverse;
-    padding: 30px 25px 60px;
   }
 }
