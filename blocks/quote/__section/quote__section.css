@@ -10,7 +10,8 @@
 @media (max-width: 765px) {
   .quote__section {
     grid-template-columns: repeat(2, auto);
-    max-width: 500px;
+    max-width: 100%;
+    grid-column-gap: 20%;
   }
 }
 

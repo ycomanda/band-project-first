@@ -1,6 +1,7 @@
 .title__img {
-  width: 355px;
-  height: 355px;
+  max-width: 355px;
+  max-height: 355px;
+  width: 100%;
   object-fit: cover;
   object-position: center;
   padding: 0 90px 0 0;
@@ -8,13 +9,6 @@
 
 @media (max-width: 1040px) {
   .title__img {
-    padding: 0;
-  }
-}
-
-@media (max-width: 765px) {
-  .title__img {
-    width: 100%;
-    height: auto;
+    padding: 50px 0;
   }
 }
