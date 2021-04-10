@@ -1,5 +1,10 @@
 .header {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 12px;
   font-weight: 700;
 }
+
+@media (max-width: 450px) {
+  .header {
+    font-size: 18px;
+  }

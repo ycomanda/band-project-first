@@ -1,0 +1,13 @@
+.places__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 63px 70px 82px;
+  margin: 0;
+}
+
+@media (max-width: 765px) {
+  .places__article {
+    padding: 50px 35px;
+  }
+}

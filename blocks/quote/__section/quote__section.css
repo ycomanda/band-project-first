@@ -1,0 +1,23 @@
+.quote__section {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  list-style-type: none;
+  padding: 0;
+  grid-column-gap: 75px;
+  margin: 0 auto;
+}
+
+@media (max-width: 765px) {
+  .quote__section {
+    grid-template-columns: repeat(2, auto);
+    max-width: 100%;
+    grid-column-gap: 20%;
+  }
+}
+
+@media (max-width: 450px) {
+  .quote__section {
+    grid-template-columns: auto;
+    max-width: 350px;
+  }
+}

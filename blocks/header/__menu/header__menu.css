@@ -4,3 +4,9 @@
   align-items: center;
   margin: 40px 0 0;
 }
+
+@media (max-width: 450px) {
+  .header__menu {
+    display: none;
+  }
+}

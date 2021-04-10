@@ -1,0 +1,9 @@
+.header__menu-sandwich {
+  display: none;
+}
+
+@media (max-width: 450px){
+  .header__menu-sandwich {
+    display: block;
+  }
+}

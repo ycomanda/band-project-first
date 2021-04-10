@@ -1,4 +1,25 @@
-.root__content-size {
+/*.root__content-size {
   max-width: 100%;
   padding: 0 68px 0;
+}
+*/
+
+.root__content-size {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 68px 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .root__content-size {
+    padding: 0 40px 0;
+  }
+}
+
+@media (max-width: 765px) {
+  .root__content-size {
+    padding: 0 30px 0;
+  }
 }

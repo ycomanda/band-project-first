@@ -1,8 +1,10 @@
 .section-title {
   display: block;
   text-transform: uppercase;
-  color: #FECDA7;
-  font-size: 12px;
+  color: #fecda7;
   max-width: 200px;
   margin: 25px 0 0;
+  font-family: "Monospac821 WGL4 BT Roman", "Manrope", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
 }

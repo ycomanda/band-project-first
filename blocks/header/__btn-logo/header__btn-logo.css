@@ -1,0 +1,28 @@
+.header__btn-logo {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition: transform 0.2s ease-in-out;
+}
+
+.header__btn-logo::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  content: '';
+  top: -8px;
+}
+
+.header__btn-logo::before {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  content: '';
+  top: 8px;
+}

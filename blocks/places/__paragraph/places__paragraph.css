@@ -1,0 +1,9 @@
+.places__paragraph {
+  margin: 0;
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 163%;
+  max-width: 85%;
+}
