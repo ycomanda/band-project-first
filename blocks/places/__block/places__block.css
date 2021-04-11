@@ -1,10 +1,17 @@
 .places__block {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: minmax(-webkit-min-content, 50%) minmax(-webkit-min-content, 50%);
+  -ms-grid-columns: minmax(min-content, 50%) minmax(min-content, 50%);
+  grid-template-columns: minmax(-webkit-min-content, 50%) minmax(-webkit-min-content, 50%);
   grid-template-columns: minmax(min-content, 50%) minmax(min-content, 50%);
 }
 
 @media (max-width: 765px) {
   .places__block {
+    -ms-grid-columns: minmax(-webkit-min-content, 100%);
+    -ms-grid-columns: minmax(min-content, 100%);
+    grid-template-columns: minmax(-webkit-min-content, 100%);
     grid-template-columns: minmax(min-content, 100%);
   }
 }

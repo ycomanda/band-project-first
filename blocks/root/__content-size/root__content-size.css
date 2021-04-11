@@ -3,6 +3,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 68px 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 

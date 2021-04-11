@@ -1,7 +1,9 @@
 .places__img {
   width: 100%;
   height: calc(100vw / 2 / 1.2);
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: center;
   object-position: center;
 }
 

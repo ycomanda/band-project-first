@@ -1,6 +1,7 @@
 .places {
   display: grid;
   grid-template-columns: auto;
+  -ms-grid-columns: auto;
   font-family: "Manrope", sans-serif;
   font-size: 12px;
   font-weight: 700;
